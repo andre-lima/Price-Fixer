@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+
+  "name": "Price Fixer",
+  "description": "Save billions of dollars by not being convinced, by dishonest marketing practices, to buy stuff you don't need.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
